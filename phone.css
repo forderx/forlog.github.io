@@ -1,0 +1,64 @@
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo {
+        left: 5%;
+        font-size: 2vh;
+    }
+    .navbar .links {
+        right: 5%;
+        font-size: 1.5vh;
+    }
+
+    .mininfo .infopage {
+        text-align: center;
+        width: 100%;
+        left:0;
+        margin:0;
+    }
+    .mininfo .infopage h1 {
+        font-size:3vh;
+    }
+
+    .mininfo .infopage p {
+        display: block;
+        width: 100%;
+        font-size: 1.5vh;
+        word-wrap: break-word;
+    }
+
+    .content {
+        top:50%;
+        width: 100%;
+        left: 0%;
+        transform: translate(0%);
+    }
+    
+    .listlang {
+        margin:0;
+    }
+
+    .allworks {
+        flex-direction: column;
+    }
+
+    .workmain {
+        width: 300px;
+    }
+
+    .allcontacts {
+        flex-direction: column;
+    }
+
+    .conto {
+        padding: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .plusinfo .plustitle {
+        font-size: 4.5vh;
+    }
+}
