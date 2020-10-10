@@ -24,5 +24,6 @@ $(document).ready(function() {
         $('.aboutinfo').css({'height':'100%'});
         $('.mininfo').css({'height':'100%'});
         $(".minlanginfo").css({"height":'100%'});
+        $(".fullscreen").css({"height":'100%'});
     });
 });
