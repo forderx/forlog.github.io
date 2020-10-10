@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./phone.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ForLog</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="app" class='.container'>
+        <nav class="navbar">
+            <a class="logo" href="#">Forlog</a>
+            <div class="links">
+                <a onclick="override(event, 903)" href="#">Контакты</a>
+                <a onclick="override(event, 700)" href="#">Портфолио</a>
+            </div>
+        </nav>
+        <div class="mininfo">
+            <div class="aboutinfo">
+                <div class="fullscreen">
+                    <div class="infopage">
+                        <h1 class="titleinfo">{{ infoabout }}</h1>
+                        <p class="infotext">{{ textabout }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="minlanginfo">
+                <div class="fullscreen">
+                    <div class="infopage">
+                        <h1 class="titleinfo">{{ infolang }}</h1>
+                        <p class="infotext">{{ textlang }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="changeColorBut(this)" class="about activeMin">{{minbutaboud}}</button>
+                <button onclick="changeColorBut(this)" class="lang">{{minbutlang}}</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="plusinfo">
+                <h1 class="plustitle">Веб-разработка</h1>
+                <p class="plustext">Я занимаюсь front-end и back-end разработкой, ранее писал на:</p>
+                <p class="listlang">
+                    <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">HTML</a>, 
+                    <a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">CSS</a>, 
+                    <a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">JS</a>, 
+                    <a href="https://ru.wikipedia.org/wiki/PHP" target="_blank">PHP</a>
+                </p>
+            </div>
+            <div class="portf">
+                <h1 class="allworktitle">Портфолио</h1>
+                <p class="lengthwork">Всего работ сделано: <span style="color:#0652DD;">{{lengthwork}}</span></p>
+                <p class="notwork" v-if="lengthwork == 0">На данном этапе, в моем портфолио отсутствуют какие-либо работы</p>
+                <div v-else class="allworks">
+                    <div class="workmain" v-for="work in lengthwork">
+                        <img :src="workimgs[work - 1]" alt="" class="imgwork">
+                        <div class="workfullinfo">
+                            <h1 class='titlework'>{{worknames[work - 1]}}</h1>
+                            <p class="workinfo">{{workinfo[work-1]}}</p>
+                            <a class="linkto" :href="worklinks[work - 1]">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts">
+                <h1 class="titlecontacts">Мои контакты</h1>
+                <div class="allcontacts">
+                    <div class="contact">
+                        <img src="telegram.svg" alt="" width="150px" height="150px">
+                        <h1 class="titlecontact">Telegram</h1>
+                        <p class="infocontact">@ForderXS</p>
+                        <a class="conto" href="tg://resolve?domain=ForderXS">Написать</a>
+                    </div>
+                    <div class="contact">
+                        <img src="vk.svg" alt="" width="150px" height="150px">
+                        <h1 class="titlecontact">VK</h1>
+                        <p class="infocontact">atomicdaun</p>
+                        <a class="conto" href="https://vk.com/atomicdaun">Написать</a>
+                    </div>
+                    <div class="contact">
+                        <img src="gmail.svg" alt="" width="150px" height="150px">
+                        <h1 class="titlecontact">Gmail</h1>
+                        <p class="infocontact">froderforder@gmail.com</p>
+                        <a class="conto" href="mailto:froderforder@gmail.com">Написать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+        <script src="vue.js"></script>
+    <script src="js.js"></script>
+    <script>
+        function override(e, px) {
+            e.preventDefault()
+            console.log('$(window).scrollTop('+px+')');
+            $(window).scrollTop(px)
+        }
+
+        function changeColorBut(el) {
+            $(".activeMin").removeClass()
+            $(el).addClass("activeMin");
+        }
+    </script>
+</html>
+
+
+
