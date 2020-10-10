@@ -120,7 +120,7 @@
 }
 
 .max {
-    height:100% !important;
+    min-height:100% !important;
 }
 
 .mininfo .infopage h1 {
