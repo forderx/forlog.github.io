@@ -21,9 +21,9 @@ $(document).ready(function() {
         $(".minlanginfo").css({'right':"0%"})
     });
     $(".logo").on('click', ()=>{
-        $('.aboutinfo').css({'height':'100%'});
-        $('.mininfo').css({'height':'100%'});
-        $(".minlanginfo").css({'height':'100%'});
-        $(".fullscreen").css({'height':'100%'});
+        $('.aboutinfo').addClass( "max" );
+        $('.mininfo').addClass( "max" );
+        $(".minlanginfo").addClass( "max" );
+        $(".fullscreen").addClass( "max" );
     });
 });
