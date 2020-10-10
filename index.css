@@ -146,6 +146,7 @@
     padding: 25px;
     left: 50%;
     transform: translate(-50%);
+    box-shadow:#e3e3e3 0 0 50px;
 }
 
 .plusinfo {
