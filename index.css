@@ -66,7 +66,7 @@
 .backimg {
     position: absolute;
     width: 100%;
-    height: 350px;
+    height: 500px;
     top:0;
     left:0;
     z-index: -1111;
@@ -76,7 +76,7 @@
 .mininfo {
     position: absolute;
     width: 100%;
-    height: 350px;
+    height: 500px;
     backdrop-filter: blur(3px);
     top:0;
     left:0;
