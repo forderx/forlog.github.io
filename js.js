@@ -31,4 +31,30 @@ $(document).ready(function() {
     $(".logo").on('click', ()=>{
         $(".max").css({'height':$(window).height() + 'px'});
     });
+    
+    VANTA.CELLS({
+        el: ".aboutinfo",
+        mouseControls:false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x31d9d9,
+        color2: 0x6e6d6d,
+        size: 0.70
+        })
+
+    VANTA.TRUNK({
+        el: ".minlanginfo",
+        mouseControls:false,
+        touchControls:false,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        spacing: 5.00
+        })
+    
 });
