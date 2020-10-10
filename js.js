@@ -5,10 +5,7 @@ $(document).ready(function() {
             $('.navbar').addClass("whiteTheme");
             $(".logo").addClass("blackTheme")
             $(".links a").addClass("blackTheme")
-            $('.aboutinfo').removeClass( "max" );
-            $('.mininfo').removeClass( "max" );
-            $(".minlanginfo").removeClass( "max" );
-            $(".fullscreen").removeClass( "max" );
+            $(".max").css({'height':'500px'});
         } else {
             $('.navbar').removeClass("whiteTheme");
             $(".logo").removeClass("blackTheme")
@@ -29,6 +26,5 @@ $(document).ready(function() {
         $('.mininfo').addClass( "max" );
         $(".minlanginfo").addClass( "max" );
         $(".fullscreen").addClass( "max" );
-        $(".max").css({'height':$(window).height() + 'px'});
     });
 });
