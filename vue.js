@@ -8,7 +8,7 @@ var app = new Vue({
       minbutlang: "Языки программирования",
       textabout: "Я являюсь веб-разработчиком, пишу сайты на заказ",
       infolang: "Языки программирования на которых я пишу",
-      textlang: "Я занимаюсь front-end и back-end разработкой, ранее писал на: HTML, CSS, JS, PHP",
+      textlang: "Я занимаюсь front-end и back-end разработкой, пишу на: HTML, CSS, JS, PHP",
       worknames: ['ForLog'],
       workinfo: ['Мой проект, мое портфолио, на котором вы сейчас находитесь'],
       worklinks: ['#'],
