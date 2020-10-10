@@ -1,11 +1,4 @@
 $(document).ready(function() {
-
-    $('.aboutinfo').addClass( "max" );
-    $('.mininfo').addClass( "max" );
-    $(".minlanginfo").addClass( "max" );
-    $(".fullscreen").addClass( "max" );
-    
-    $(".max").css({'height':$(window).height() + 'px'});
     
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1){
