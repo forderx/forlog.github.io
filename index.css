@@ -67,7 +67,6 @@
 }
 
 .mininfo {
-    position: absolute;
     width: 100% ;
     height: 500px;
     backdrop-filter: blur(3px);
