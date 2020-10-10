@@ -25,11 +25,4 @@ $(document).ready(function() {
         $(".max").css({'height':$(window).height() + 'px'});
     });
     
-    $('.logo').typeIt({
-     strings: ["ForLog.", "ForDog.", "ForGod."],
-     speed: 50,
-     breakLines: false,
-     autoStart: false
-});
-    
 });
