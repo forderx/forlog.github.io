@@ -10,7 +10,6 @@
     <meta charset="UTF-8" />
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="vue.js"></script>
 </head>
 <body>
     <div id="app" class='.container'>
@@ -84,19 +83,20 @@
         </div>
     </div>
 </body>
-<script src="js.js"></script>
-<script>
-    function override(e, px) {
-        e.preventDefault()
-        console.log('$(window).scrollTop('+px+')');
-        $(window).scrollTop(px)
-    }
+        <script src="vue.js"></script>
+    <script src="js.js"></script>
+    <script>
+        function override(e, px) {
+            e.preventDefault()
+            console.log('$(window).scrollTop('+px+')');
+            $(window).scrollTop(px)
+        }
 
-    function changeColorBut(el) {
-        $(".activeMin").removeClass()
-        $(el).addClass("activeMin");
-    }
-</script>
+        function changeColorBut(el) {
+            $(".activeMin").removeClass()
+            $(el).addClass("activeMin");
+        }
+    </script>
 </html>
 
 
