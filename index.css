@@ -140,6 +140,8 @@
 
 .content {
     position: relative;
+    margin-top:1px;
+    backdrop-filter: blur(0px);
     width: 60%;
     height: auto;
     padding: 25px;
