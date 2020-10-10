@@ -62,3 +62,18 @@
         font-size: 4.5vh;
     }
 }
+
+@media (max-width: 768px) {
+    .contact {
+        width:200px;
+    }
+    .conto {
+        padding: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .contact img {
+        width:100px;
+        height:100px;
+    }
+}
