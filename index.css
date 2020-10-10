@@ -247,6 +247,11 @@
     transform: translate(-50%);
 }
 
+.linkto:active {
+    bottom:calc(5%+3px);
+    border-bottom: none;
+}
+
 .contacts {
     position: relative;
     height: auto;
@@ -298,5 +303,10 @@
     left: 50%;
     transform: translate(-50%);
     bottom: 5%;
+}
+
+.conto:active {
+    bottom:calc(5%+3px);
+    border-bottom: none;
 }
 
