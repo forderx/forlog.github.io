@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+    $('.aboutinfo').addClass( "max" );
+    $('.mininfo').addClass( "max" );
+    $(".minlanginfo").addClass( "max" );
+    $(".fullscreen").addClass( "max" );
+    
+    $(".max").css({'height':$(window).height() + 'px'});
+    
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1){
             $('.navbar').addClass("whiteTheme");
@@ -22,9 +29,6 @@ $(document).ready(function() {
         $(".minlanginfo").css({'right':"0%"})
     });
     $(".logo").on('click', ()=>{
-        $('.aboutinfo').addClass( "max" );
-        $('.mininfo').addClass( "max" );
-        $(".minlanginfo").addClass( "max" );
-        $(".fullscreen").addClass( "max" );
+        $(".max").css({'height':$(window).height() + 'px'});
     });
 });
