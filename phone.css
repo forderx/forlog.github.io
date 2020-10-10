@@ -51,7 +51,9 @@
     .allcontacts {
         flex-direction: column;
     }
-
+    .contact {
+        width:200px;
+    }
     .conto {
         padding: 30px;
         padding-top: 5px;
