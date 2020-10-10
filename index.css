@@ -65,15 +65,15 @@
 }
 
 .mininfo {
-    position: relative;
-    width: 100%;
+    position: relative !!important;
+    width: 100% !important;
     height: 500px;
     backdrop-filter: blur(3px);
-    top:0;
-    left:0;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    overflow: hidden;
+    top:0 !important;
+    left:0 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    overflow: hidden !important;
 }
 
 .mininfo .infopage {
@@ -93,28 +93,28 @@
 }
 
 .fullscreen {
-    position: absolute;
-    backdrop-filter: blur(3px);
-    top:0;
-    left:0;
-    background: rgba(255, 255, 255, 0.1);
-    width: 100%;
+    position: absolute !important;
+    backdrop-filter: blur(3px) !important;
+    top:0 !important;
+    left:0 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    width: 100% !important;
     height: 500px;
 }
 
 .aboutinfo {
-    position: absolute;
-    width: 100%;
+    position: absolute !important;
+    width: 100% !important;
     height: 500px;
-    background: url("https://i.pinimg.com/originals/0c/ac/5e/0cac5ed32498bfe3e707b8492e0db3e0.jpg");
+    background: url("https://i.pinimg.com/originals/0c/ac/5e/0cac5ed32498bfe3e707b8492e0db3e0.jpg") !important;
 }
 
 .minlanginfo {
-    right: -100%;
-    position: absolute;
-    width: 100%;
+    right: -100% !important;
+    position: absolute !important;
+    width: 100% !important;
     height: 500px;
-    background: url("https://wallpapershome.ru/images/pages/pic_h/20329.jpg");
+    background: url("https://wallpapershome.ru/images/pages/pic_h/20329.jpg") !important;
 }
 
 
