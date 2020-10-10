@@ -107,7 +107,8 @@
     position: absolute;
     width: 100%;
     height: 500px;
-    background: url("https://i.pinimg.com/originals/0c/ac/5e/0cac5ed32498bfe3e707b8492e0db3e0.jpg") !important;
+    /*background: url("https://i.pinimg.com/originals/0c/ac/5e/0cac5ed32498bfe3e707b8492e0db3e0.jpg") !important;*/
+    background: url('https://wallpapershome.ru/images/pages/pic_h/12589.jpg') !important;
 }
 
 .minlanginfo {
