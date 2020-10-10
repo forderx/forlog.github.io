@@ -18,6 +18,7 @@ var app = new Vue({
         if (item == "about") {
           app.img = "https://i.pinimg.com/originals/0c/ac/5e/0cac5ed32498bfe3e707b8492e0db3e0.jpg"
           app.info = "Меня зовут Давид"
+          app.text = "Я являюсь веб-разработчиком, пишу сайты на заказ"
         }else {
           app.img = "https://wallpapershome.ru/images/pages/pic_h/20329.jpg"
           app.info = "Языки программирования"
