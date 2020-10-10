@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
       mainpage: 'ForLog | Главная',
       lengthwork: 1,
-      infoabout: "Меня зовут Давид",
+      infoabout: "Приветствую, меня зовут Давид",
       minbutaboud: "Обо мне",
       minbutlang: "Языки программирования",
       textabout: "Я являюсь веб-разработчиком, пишу сайты на заказ",
