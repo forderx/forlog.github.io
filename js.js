@@ -5,6 +5,10 @@ $(document).ready(function() {
             $('.navbar').addClass("whiteTheme");
             $(".logo").addClass("blackTheme")
             $(".links a").addClass("blackTheme")
+            $('.aboutinfo').removeClass( "max" );
+            $('.mininfo').removeClass( "max" );
+            $(".minlanginfo").removeClass( "max" );
+            $(".fullscreen").removeClass( "max" );
         } else {
             $('.navbar').removeClass("whiteTheme");
             $(".logo").removeClass("blackTheme")
