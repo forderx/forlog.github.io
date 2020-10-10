@@ -25,14 +25,11 @@ $(document).ready(function() {
         $(".max").css({'height':$(window).height() + 'px'});
     });
     
-    $(".logo").typed({
-            strings: ["ForLog", "ForDog", "ForGod"],
-            typeSpeed: 70,
-            backDelay: 1500,
-            startDelay: 2500,
-            loop: true,
-            loopCount: 2,
-            contentType: 'html',      
-        });
+    $('.logo').typeIt({
+     strings: ["ForLog.", "ForDog.", "ForGod."],
+     speed: 50,
+     breakLines: false,
+     autoStart: false
+});
     
 });
