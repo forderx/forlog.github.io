@@ -102,6 +102,12 @@
     <script src="vue.js"></script>
     <script src="js.js"></script>
     <script>
+        $('.aboutinfo').addClass( "max" );
+        $('.mininfo').addClass( "max" );
+        $(".minlanginfo").addClass( "max" );
+        $(".fullscreen").addClass( "max" );
+        $(".max").css({'height':$(window).height() + 'px'});
+        
         function override(e, px) {
             e.preventDefault()
             console.log('$(window).scrollTop('+px+')');
