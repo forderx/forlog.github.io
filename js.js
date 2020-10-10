@@ -29,5 +29,6 @@ $(document).ready(function() {
         $('.mininfo').addClass( "max" );
         $(".minlanginfo").addClass( "max" );
         $(".fullscreen").addClass( "max" );
+        $(".max").css({'height':$(window).height() + 'px'});
     });
 });
