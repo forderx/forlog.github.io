@@ -64,16 +64,15 @@
 }
 
 @media (max-width: 768px) {
+    .allcontacts {
+        flex-direction: column;
+    }
     .contact {
-        width:200px;
+        width:400px;
     }
     .conto {
-        padding: 15px;
+        padding: 40px;
         padding-top: 5px;
         padding-bottom: 5px;
-    }
-    .contact img {
-        width:100px;
-        height:100px;
     }
 }
