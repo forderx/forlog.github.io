@@ -58,7 +58,7 @@
                 <p class="notwork" v-if="lengthwork == 0">На данном этапе, в моем портфолио отсутствуют какие-либо работы</p>
                 <div v-else class="allworks">
                     <div class="workmain" v-for="work in lengthwork">
-                        <img :src="workimgs[work - 1]" alt="" class="imgwork">
+                        <img :src="workimgs[work - 1]" width="300px" alt="" class="imgwork">
                         <div class="workfullinfo">
                             <h1 class='titlework'>{{worknames[work - 1]}}</h1>
                             <p class="workinfo">{{workinfo[work-1]}}</p>
