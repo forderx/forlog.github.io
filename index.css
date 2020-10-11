@@ -108,6 +108,7 @@
     width: 100%;
     height: 500px;
     background: url("./zvezdy-4k-ultra-hd.jpg") !important;
+    background-repeat: no-repeat !important; 
 }
 
 .minlanginfo {
