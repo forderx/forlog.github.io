@@ -13,7 +13,7 @@ var app = new Vue({
       worknames: ['ForLog'],
       workinfo: ['Мой проект, мое портфолио, на котором вы сейчас находитесь'],
       worklinks: ['#'],
-      workimgs: ['https://sun9-19.userapi.com/qXrSUvzOPcJL1W78Sr5YlmRlwlkkpVNxNp270A/UcL5GEseyQE.jpg'],
+      workimgs: ['./for-log.png'],
     },
     methods: {
       // changeMinContent: function (item) {
