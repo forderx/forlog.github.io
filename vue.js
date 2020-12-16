@@ -10,10 +10,10 @@ var app = new Vue({
       infolang: "Языки программирования на которых я пишу",
       textlang: "Я занимаюсь front-end и back-end разработкой, пишу на: ",
       lang:"HTML, CSS, JS, PHP",
-      worknames: ['ForLog'],
-      workinfo: ['Мой проект, мое портфолио, на котором вы сейчас находитесь'],
-      worklinks: ['#'],
-      workimgs: ['./for-log.png'],
+      worknames: ['ForLog','PostSoc'],
+      workinfo: ['Мой проект, мое портфолио, на котором вы сейчас находитесь', 'Мой проект, социальная сеть'],
+      worklinks: ['#', 'https://postsoc.000webhostapp.com/index'],
+      workimgs: ['./for-log.png','./postsoc.png'],
     }
 
   })
