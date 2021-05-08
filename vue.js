@@ -13,7 +13,7 @@ var app = new Vue({
       worknames: ['ForLog','PostSoc', 'ForTube'],
       workinfo: ['Портфолио, на котором вы сейчас находитесь', 'Социальная сеть', 'Сервис для просмотра видео YOUTUBE с друзьями'],
       worklinks: ['#', 'https://postsoc.000webhostapp.com/index', 'https://secure-island-66109.herokuapp.com/'],
-      workimgs: ['./for-log.png','./postsoc.png'],
+      workimgs: ['./for-log.png','./postsoc.png', './fortube.png'],
     }
 
   })
